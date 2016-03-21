@@ -1,0 +1,151 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>Flambu Prototype</title>
+    
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="bower_components/bootstrap-star-rating/css/star-rating.css" type="text/css" />
+    <link rel="stylesheet" href="bower_components/tether-1.2.0/dist/css/tether.min.css" type="text/css" />
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="bower_components/tether-1.2.0/dist/js/tether.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="bower_components/bootstrap-star-rating/js/star-rating.min.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-faded">
+      <a class="navbar-brand" href="#">Flambu</a>
+      <ul class="nav navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Settings</a>
+        </li>
+      </ul>
+      <form class="form-inline pull-xs-right">
+        <input class="form-control" type="text" placeholder="Search">
+        <button class="btn btn-success-outline" type="submit">Search</button>
+      </form>
+    </nav>
+
+    <main class="well" id="profile">
+      <div id="top-level" class="clearfix">
+        <div class="col-sm-4">
+          <img src="defaultpp.png" class="thumbnail border-10" alt="" />
+          <div class="name">
+            <h3>John Doe</h3>
+          </div>
+          <div class="title">
+            <h5>QA Consultant, New York</h5>
+          </div>
+          <button type="button" class="btn btn-secondary col-sm-6">Connect</button>
+        </div>
+
+        <div class="col-sm-4">
+          <div id="skills" class="clearfix">
+            <h4>Skills</h4>
+            <div>
+              <div class="skill col-sm-4">
+                <button type="button" class="btn btn-warning btn-sm col-sm-12">Cooking</button>
+              </div>
+              <div class="skill col-sm-4">
+                <button type="button" class="btn btn-warning btn-sm col-sm-12">Social Media</button>
+              </div>
+              <div class="skill col-sm-4">
+                <button type="button" class="btn btn-warning btn-sm col-sm-12">Trendwatching</button>
+              </div>
+              <div class="skill col-sm-4">
+                <button type="button" class="btn btn-warning btn-sm col-sm-12">Marketing</button>
+              </div>
+              <div class="skill col-sm-4">
+                <button type="button" class="btn btn-warning btn-sm col-sm-12">Interior Design</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="interests" class="clearfix">
+            <h4>Interests</h4>
+            <div>
+              <div class="interest col-sm-4">
+                <button type="button" class="btn btn-warning btn-sm col-sm-12">Architecture</button>
+              </div>
+              <div class="interest col-sm-4">
+                <button type="button" class="btn btn-warning btn-sm col-sm-12">Basketball</button>
+              </div>
+              <div class="interest col-sm-4">
+                <button type="button" class="btn btn-warning btn-sm col-sm-12">Politics</button>
+              </div>
+              <div class="interest col-sm-4">
+                <button type="button" class="btn btn-warning btn-sm col-sm-12">Cats</button>
+              </div>
+              <div class="interest col-sm-4">
+                <button type="button" class="btn btn-warning btn-sm col-sm-12">Jazz Music</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="altruism">
+            <h4>Altruism Level</h4>
+            <progress class="progress" value="75" max="100">75%</progress>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div id="bottom-level">
+        <div class="history clearfix">
+          <div class="col-sm-12">
+            <h5>John has helped Sandy on Computer Science and earned 100 skill points</h5>
+          </div>
+          <div class="col-sm-12">
+            <div class="col-sm-1">
+              <img class="history-image" src="defaultpp.png" alt="" />
+            </div>
+            <div class="col-sm-11 history-text">
+              <h5>Computer Science Project</h5>
+              <p>I need someone to help me on my final project on Computer Science. The project is based on... <a href="#">View more</a></p>
+            </div>
+          </div>
+        </div>  
+        <hr />
+        <div class="history clearfix">
+          <div class="col-sm-12">
+            <h5>John has helped Brian on items sharing earned 50 karma points</h5>
+          </div>
+          <div class="col-sm-12">
+            <div class="col-sm-1">
+              <img class="history-image" src="defaultpp.png" alt="" />
+            </div>
+            <div class="col-sm-11 history-text">
+              <h5>Hanging TV on the wall</h5>
+              <p>I need to hang my TV on the wall and I'd be glad if someone with the necessary tools can help me...<a href="#">View more</a></p>
+            </div>
+          </div>
+        </div>  
+        <hr />
+        <div class="history clearfix">
+          <div class="col-sm-12">
+            <h5>John has helped David on transportation earned 50 karma points</h5>
+          </div>
+          <div class="col-sm-12">
+            <div class="col-sm-1">
+              <img class="history-image" src="defaultpp.png" alt="" />
+            </div>
+            <div class="col-sm-11 history-text">
+              <h5>Need someone to help me move my stuff</h5>
+              <p>I'd be grateful if someone can help me move my stuff to my new place from...<a href="#">View more</a></p>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </main>
+  </body>
+</html>

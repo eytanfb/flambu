@@ -1,0 +1,42 @@
+#profile {
+  margin: 20px;
+}
+
+.border-10 {
+  border: 1px solid black;
+}
+
+img {
+  padding: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.name, .title {
+  padding: 0.5em 0.5em 0em 0.5em;
+}
+
+.title {
+  padding-top: 0em;
+}
+
+.skill {
+  height: 5em;
+}
+
+.interest {
+  height: 3em;
+}
+
+.altruism {
+  margin-top: 14em;
+}
+
+.history-image {
+  width: 100px;
+  height: 100px;
+}
+
+.history-text {
+  padding-top: 1em;
+}
