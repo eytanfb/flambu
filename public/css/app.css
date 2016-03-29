@@ -40,3 +40,78 @@ img {
 .history-text {
   padding-top: 1em;
 }
+
+#flambu {
+  color: orange;
+  font-size: large;
+  font-weight: bold;
+}
+
+#input-form img {
+  width: 100px;
+  height: 100px;
+}
+
+#textarea-input {
+  padding: 10px;
+  height: 80px;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  height: inherit;
+}
+
+.posting {
+  border: 1px solid black;
+  background: greenyellow;
+  border-radius: 5px;
+  margin-left: 55px;
+  margin-bottom: 10px;
+}
+
+.posting-image {
+  width: 100px;
+  height: 100px;
+}
+
+.posting-title-container {
+  margin-top: 15px;
+}
+
+.posting-title {
+  font-size: 20px;
+}
+
+.posting-textarea {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 90px;
+}
+
+.posting-bottom-image {
+  width: 50px;
+  height: 50px;
+}
+
+.posting-comment {
+  width: 81%;
+  margin-left: 25px;
+}
+
+.suggest-button, .message-button {
+  width: 49%;
+}
+
+#postings {
+  margin-top: 20px;
+}
+
+.posting-bottom {
+  margin-bottom: 15px;
+}
+
+.posting-middle button {
+  margin-left: 5px;
+}
