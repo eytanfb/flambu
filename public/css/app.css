@@ -115,3 +115,28 @@ textarea {
 .posting-middle button {
   margin-left: 5px;
 }
+#login-box {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+#login-content {
+  padding: 25px;
+}
+#login-top-motto {
+  font-size: large;
+  font-weight: bold;
+}
+#login-middle {
+  margin-top: 5px;
+}
+.btn-facebook {
+  background: navy;
+  color: white;
+  margin: 0 auto;
+}
+#login-middle button, #login-middle input {
+  margin-top: 5px;
+}
